@@ -1,10 +1,10 @@
 # Predicting-the-Beats-per-Minute-of-Songs
-An analysis of songs dataset to predict the BeatsPerMinute using machine learning models
+## An analysis of songs dataset to predict the BeatsPerMinute using machine learning models
 
-Project Overview
+### Project Overview
 This project is a data science and machine learning analysis of a song dataset with the goal of predicting a song's BeatsPerMinute (BPM). The BPM, a direct measure of a song's tempo, is an important feature in music analysis. The target class for this project is a numeric feature, which makes this a regression problem.
 
-Data Source
+### Data Source
 The dataset used in this project is sourced from a Kaggle competition. The dataset contains various audio features that serve as predictors for the target variable BeatsPerMinute. Key features in the dataset include:
 
 RhythmScore: A measure of rhythmic complexity or regularity.
@@ -19,7 +19,7 @@ Energy: A perceptual measure of intensity and activity.
 
 TrackDurationMs: The duration of the song in milliseconds.
 
-Methodology
+### Methodology
 My approach to this project followed a standard data science workflow, from data exploration to model training and evaluation.
 
 Data Loading and Inspection: The training and testing datasets were loaded using the pandas library. An initial inspection revealed that there were no missing values in the dataset, and all predictor features were numeric.
@@ -35,7 +35,7 @@ Model Evaluation: The model was evaluated using a learning curve, plotting the R
 
 Based on the provided learning curve graph, here is an altered and more detailed "Results & Conclusion" section for your README.
 
-Results & Conclusion
+### Results & Conclusion
 The learning curve plot provides a clear evaluation of the model's performance as more data is added.
 
 Training Score (Red Line): The training error is low at the beginning with a small number of training examples, indicating the model is fitting the training data very well. As the number of training examples increases, the training error steadily rises, which is a normal behavior as the model has a harder time fitting a larger, more complex dataset.
@@ -48,7 +48,7 @@ Tune hyperparameters: Increase the complexity of the current Random Forest Regre
 
 Perform more feature engineering: Explore creating new features from the existing ones to give the model more information.
 
-Technologies Used
+### Technologies Used
 Programming Language: Python
 
 Libraries: pandas, numpy, scikit-learn, matplotlib
